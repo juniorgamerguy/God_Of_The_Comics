@@ -1,144 +1,129 @@
- <!DOCTYPE html>
-<!-- Template by html.am -->
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>God_Of_The_comics.com</title>
+		<title>God Of The Comics</title>
 		<style type="text/css">
+			html, #page { padding:0; margin:0;}
+			body { margin:0; padding:0; width:100%; color:#959595; font:normal 12px/2.0em Sans-Serif;}
+			h1, h2, h3, h4, h5, h6 {color:black;}
+			#page { background:#fff;}
+			#header, #footer, #top-nav, #content, #content #contentbar, #content #sidebar { margin:0; padding:0;}
 
-		body {
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			height: 100%;
-			max-height: 100%;
-			font-family:Sans-serif;
-			line-height: 1.5em;
-		}
+			/* Logo */
+			#logo { padding:0; width:auto; float:left;}
+			#logo h1 a, h1 a:hover { color:white; text-decoration:none;}
+			#logo h1 span { color:#BCCE98;}
 
-		#header {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100px;
-			overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
-			background: #BCCE98;
-		}
+			/* Header */
+			#header { background:#0077be;}
+			#header-inner { margin:0 auto; padding:0; width:970px;}
 
-		#nav {
-			position: absolute;
-			top: 100px;
-			left: 0;
-			bottom: 0;
-			width: 230px;
-			overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
-			background: #DAE9BC;
-		}
+			/* Menu */
+			#top-nav { margin:0 auto; padding:0px 0 0; height:37px; float:right;}
+			#top-nav ul { list-style:none; padding:0; height:37px; float:left;}
+			#top-nav ul li { margin:0; padding:0 0 0 8px; float:left;}
+			#top-nav ul li a { display:block; margin:0; padding:8px 20px; color:white; text-decoration:none;}
+			#top-nav ul li.active a, #top-nav ul li a:hover { color:#BCCE98;}
 
-		#logo {
-			padding:10px;
-		}
+			/* Content */
+			#content-inner { margin:0 auto; padding:10px 0; width:970px;background:#fff;}
+			#content #contentbar { margin:0; padding:0; float:right; width:760px;}
+			#content #contentbar .article { margin:0 0 24px; padding:0 20px 0 15px; }
+			#content #sidebar { padding:0; float:left; width:200px;}
+			#content #sidebar .widget { margin:0 0 12px; padding:8px 8px 8px 13px;line-height:1.4em;}
+			#content #sidebar .widget h3 a { text-decoration:none;}
+			#content #sidebar .widget ul { margin:0; padding:0; list-style:none; color:#959595;}
+			#content #sidebar .widget ul li { margin:0;}
+			#content #sidebar .widget ul li { padding:4px 0; width:185px;}
+			#content #sidebar .widget ul li a { color:green; text-decoration:none; margin-left:-16px; padding:4px 8px 4px 16px;}
+			#content #sidebar .widget ul li a:hover { color:#BCCE98; font-weight:bold; text-decoration:none;}
 
-		main {
-			position: fixed;
-			top: 100px; /* Set this to the height of the header */
-			left: 230px;
-			right: 0;
-			bottom: 0;
-			overflow: auto;
-			background: #fff;
-		}
+			/* Footerblurb */
+			#footerblurb { background:#0077be;color:white;}
+			#footerblurb-inner { margin:0 auto; width:922px; height:120px; padding:12px;}
+			#footerblurb .column { margin:0; text-align:justify; float:left;width:250px;padding:0 24px;}
 
-		.innertube {
-			margin: 15px; /* Provides padding for the content */
-		}
+			/* Footer */
+			#footer { background:#0077be;}
+			#footer-inner { margin:auto; text-align:center; padding:12px; width:922px;}
+			#footer a {color:white;text-decoration:none;}
 
-		p {
-			color: #555;
-		}
-
-		nav ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-		}
-
-		nav ul a {
-			color: darkgreen;
-			text-decoration: none;
-		}
-
-		/*IE6 fix*/
-		* html body{
-			padding: 100px 0 0 230px; /* Set the first value to the height of the header and last value to the width of the nav */
-		}
-
-		* html main{
-			height: 100%;
-			width: 100%;
-		}
-
+			/* Clear both sides to assist with div alignment  */
+			.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
 		</style>
-
-		<script type="text/javascript">
-			/* =============================
-			This script generates sample text for the body content.
-			You can remove this script and any reference to it.
-			 ============================= */
-			var bodyText=["The smaller your reality, the more convinced you are that you know everything.", "If the facts don't fit the theory, change the facts.", "The past has no power over the present moment.", "This, too, will pass.", "</p><p>You will not be punished for your anger, you will be punished by your anger.", "Peace comes from within. Do not seek it without.", "<h3>Heading</h3><p>The most important moment of your life is now. The most important person in your life is the one you are with now, and the most important activity in your life is the one you are involved with now."]
-			function generateText(sentenceCount){
-				for (var i=0; i<sentenceCount; i++)
-				document.write(bodyText[Math.floor(Math.random()*7)]+" ")
-			}
-		</script>
-
 	</head>
-
 	<body>
+		<img id="page">
+			<header id="header">
+				<div id="header-inner">
+					<div id="logo">
+						<h1><a href="index.html">God Of The Comics</a></h1>
+					</div>
+					<div id="top-nav">
+						<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="comics_page1.html">Comics</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="about.html">About</a></li>
+						</ul>
+					</div>
+					<div class="clr"></div>
+				</div>
+			</header>
+			<div id="content">
+				<div id="content-inner">
 
-		<header id="header">
-			<div id="logo">
-				<h1>God_Of_The_Comics</h1>
+					<main id="contentbar">
+						<div class="article">
+							<p><h1><b>Home Page</b></h1></p>
+							<p><h3>These are Examples of what i post here on my website:</h3></p>
+							<img src = "images/logo.png" alt="logo" width="200"/>
+						</div>
+					</main>
+
+					<nav id="sidebar">
+						<div class="widget">
+							<h1><u>Comics</u></h1>
+							<ul>
+							<li><a href="comics_page1.html"><u><b>SUPER FUNNY COMICS!</b></u></a></li>
+							<li><a href="comics_page2.html"><u><b>All Animated Comics</b></u></a></li>
+							<li><a href="comics_page3.html"><u><b>Minecraft Jokes/Memes</b></u></a></li>
+							<li><a href="comics_page4.html"><u><b>Gamer Jokes/Memes</b></u></a></li>
+							<li><a href="comics_page5.html"><u><b>Computer Memes/Jokes</b></u></a></li>
+							</ul>
+						</div>
+					</nav>
+
+					<div class="clr"></div>
+				</div>
 			</div>
-		</header>
 
-		<main>
-			<div class="innertube">
+			<div id="footerblurb">
+				<div id="footerblurb-inner">
 
-				<h1>Heading</h1>
-				<p><script>generateText(300)</script></p>
+					<div class="column">
+						<h2><span><a href="faq.html"><p style="color:white;"><u>FAQ</u></p></a></span></h2>
+						<p>Here are the question people have asked me.</p>
+					</div>
+					<div class="column">
+						<h2><span><a href="contact.html"><p style="color:white;"><u>Contact</u></p></a></span></h2>
+						<p>Click to Contact me by email if any thing is wrong or you want to add more comics to the website.</p>
+					</div>
+					<div class="column">
+						<h2><span><a href="about.html"><p style="color:white;"><u>About</u></p></a></span></h2>
+						<p>Click About to find out more about me and my website.</p>
+					</div>
 
+					<div class="clr"></div>
+				</div>
 			</div>
-		</main>
-
-		<nav id="nav">
-			<div class="innertube">
-				<h1>Heading</h1>
-				<ul>
-					<li><a href="#">Link 1</a></li>
-					<li><a href="#">Link 2</a></li>
-					<li><a href="#">Link 3</a></li>
-					<li><a href="#">Link 4</a></li>
-					<li><a href="#">Link 5</a></li>
-				</ul>
-				<h1>Heading</h1>
-				<ul>
-					<li><a href="#">Link 1</a></li>
-					<li><a href="#">Link 2</a></li>
-					<li><a href="#">Link 3</a></li>
-					<li><a href="#">Link 4</a></li>
-					<li><a href="#">Link 5</a></li>
-				</ul>
-				<h1>Heading</h1>
-				<ul>
-					<li><a href="#">Link 1</a></li>
-					<li><a href="#">Link 2</a></li>
-					<li><a href="#">Link 3</a></li>
-					<li><a href="#">Link 4</a></li>
-					<li><a href="#">Link 5</a></li>
-				</ul>
-			</div>
-		</nav>
+			<footer id="footer">
+				<div id="footer-inner">
+					<p style="color:white;">&copy; Copyright <a href="#">GodOfTheComics.com</a> &#124; <a href="tos.html">Terms of Use</a> &#124; <a href="priv&pol.html">Privacy Policy</a></p>
+					<div class="clr"></div>
+				</div>
+			</footer>
+		</div>
 	</body>
 </html>
